@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Movie Blog</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="run.js" defer ></script>
+    
+</head>
+
+<body>
+
+  <header>
+      
+      <div id="upper_header">
+        
+          <h1 id="main_name"><a href="index1.html">Superb Movie Bloggers</a></h1>
+         
+          <p>Blog for authentic cinema lovers, everything about movies in one place !</p>
+         
+          <h3 id="login"> <a  href="#">Log In</a></h3>
+           <h3 id="singup"><a href="#">Sing Up</a></h3>
+          
+          
+          
+          <!--
+          <input type="text" placeholder="Search for movies.." name="search">
+          <button type="submit" id="button_search"><i class="fa fa-search"></i></button>
+          -->
+          
+        </div>
+       
+      
+    <nav>
+      
+   
+        
+        <ul class="nav_links">
+        
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a  href="#movie_picker">Movies</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+             <li><a href="#div_footer_content_contacts">Contact Us</a></li>
+         
+            
+            
+           <li> <input id="search_box" type="text" placeholder="Search for movies.." name="search"></li>
+            
+         <li> <button type="submit" id="button_search"><i class="fa fa-search"></i></button></li>
+            
+            <!--
+           <li id="login"><a href="#">Log In</a></li>
+            <li id="singup"><a href="#">Sing Up</a></li>
+            -->
+        
+        </ul>
+      
+      
+      
+      
+      </nav>
+    
+
+    
+    </header>  
+    
+ <hr>
+   
+ <div id="textP">
+
+    <p>Lyrics: I don't take coffee, I take tea, my dear
+     I like my toast done on one side
+     And you can hear it in my accent when I talk
+     I'm an Englishman in New York
+     See me walking down Fifth Avenue
+     A walking cane here at my side
+     I take it everywhere I walk
+     I'm an Englishman in New York
+     Oh, I'm an alien, I'm a legal alien
+     I'm an Englishman in New York
+     Oh, I'm an alien, I'm a legal alien
+     I'm an Englishman in New York</p>
+
+     <p>Lyrics: I don't take coffee, I take tea, my dear
+        I like my toast done on one side
+        And you can hear it in my accent when I talk
+        I'm an Englishman in New York
+        See me walking down Fifth Avenue
+        A walking cane here at my side
+        I take it everywhere I walk
+        I'm an Englishman in New York
+        Oh, I'm an alien, I'm a legal alien
+        I'm an Englishman in New York
+        Oh, I'm an alien, I'm a legal alien
+        I'm an Englishman in New York</p>
+
+        <p>Lyrics: I don't take coffee, I take tea, my dear
+            I like my toast done on one side
+            And you can hear it in my accent when I talk
+            I'm an Englishman in New York
+            See me walking down Fifth Avenue
+            A walking cane here at my side
+            I take it everywhere I walk
+            I'm an Englishman in New York
+            Oh, I'm an alien, I'm a legal alien
+            I'm an Englishman in New York
+            Oh, I'm an alien, I'm a legal alien
+            I'm an Englishman in New York</p>
+ 
+ </div>
+
+  <div class="poster_slideshow">
+
+  
+    
+
+      <img src="images/Poster_SlideShow/2001so.jpg" alt="" class="slide">
+      <img src="images/Poster_SlideShow/apocalipse.jpg" alt="" class="slide">
+      <img src="images/Poster_SlideShow/clockwork.jpg" alt="" class="slide">
+      <img src="images/Poster_SlideShow/foresth.jpg" alt="" class="slide">
+      <img src="images/Poster_SlideShow/savingP.jpg" alt="" class="slide">
+      <img src="images/Poster_SlideShow/angry-batman-artwork_1576095735.jpg" alt="" class="slide">
+
+
+     
+  </div>
+
+    
+    <div id="movie_picker">
+    
+     
+        <label>Year</label>
+
+            <select name="year" id="year_select">
+
+                <option value="all">All</option>
+                <option value="40s">40s</option>
+                <option value="50s">50s</option>
+                <option value="60s">60s</option>
+                <option value="70s">70s</option>
+                <option value="80s">80s</option>
+                <option value="90s">90s</option>
+                <option value="00s">00s</option>
+                <option value="10s">10s</option>
+
+    </select>
+    
+  
+    
+        <label>Genere</label>
+    
+            <select name="genre" id="genere_select">
+
+                <option value="all">All</option>
+                <option value="mystery">Mystery</option>
+                <option value="war">War</option>
+                <option value="action">Action</option>
+                <option value="horror">Horror</option>
+                <option value="comedy">Comedy</option>
+                <option value="adventure">Adventure</option>
+                <option value="sci-fi">Sci-fi</option>
+
+    </select>
+
+
+    <button id="button_ready">Ready!</button>    
+        
+        
+        
+    </div>
+    
+    
+    
+    <hr >
+
+
+    
+    <div id="flex_test">
+     
+   
+    <section id="sci_fi_id">
+        
+        <h1>2001: Space Odissey</h1>
+        <a  href="#"> <img src="images/71uoIeVduJL._AC_SY879_.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+    
+        
+    <section id="war_id">
+        
+        <h1>Apocalypse Now</h1>
+    <a  href="#">   <img src="images/81MbLnH-L-L._AC_SL1500_.jpg"></a> 
+        
+          <p>Director: Francis Ford Coppola <br>
+           Year: 1979  <br>
+            Screenplay: John Milius
+        </p>
+        
+        </section>
+    
+     
+    
+    <section id="sci_fi_id">
+        
+        <h1>Clockwork Orange</h1>
+       <a  href="#">  <img src="images/x-203326.jpg"></a> 
+        
+          <p>Director:Stanley Kubrick<br>
+           Year: 1971  <br>
+            Screenplay: Anthony Burgess
+        </p>
+        
+        
+        </section>
+    
+    
+        <section id="war_id" >
+        
+        <h1>Saving Private Ryan</h1>
+       <a  href="#">  <img src="images/Saving_Private_Ryan_-_Tom_Hanks_-_Tallenge_Fan_Art_Hollywood_Movie_Poster_Collection_1463eb91-885f-49a7-a3b9-70dc8fcee733.jpg"></a> 
+        
+          <p>Director:Steven Spielberg<br>
+           Year: 1998 <br>
+            Screenplay: Anthony Burgess
+        </p>
+        
+        
+        </section>
+    
+    
+    
+    
+    
+     <section>
+        
+        <h1>Forest Gump</h1>
+        <a  href="#"> <img src="images/41dkwOlFjYL._AC_.jpg">
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+          
+    <section>
+        
+        <h1>Machinist</h1>
+        <a  href="#"> <img src="images/51Q3ORsO-YL._AC_.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+
+    <section  id="war_id">
+        
+        <h1>Full Metal Jacket</h1>
+        <a  href="#"> <img src="images/56bd4f5a31ec7ed89b45feb34bc15ccd.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+     
+    <section>
+        
+        <h1>Twelve Angry Man</h1>
+        <a  href="#"> <img src="images/81LX+JlavLL._AC_SL1500_.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+    
+    
+    
+      
+    <section>
+        
+        <h1>Twelve Angry Man</h1>
+        <a  href="#"> <img src="images/81LX+JlavLL._AC_SL1500_.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+    
+    
+    
+      
+    <section>
+        
+        <h1>Twelve Angry Man</h1>
+        <a  href="#"> <img src="images/81LX+JlavLL._AC_SL1500_.jpg" >
+        </a>
+        
+        <p>Director: Stanley Kubrick <br>
+           Year: 1968  <br>
+            Screenplay:Arthur C. Clarke
+        </p>
+        
+        </section>
+    
+    
+    
+    
+    </div>
+    
+    
+ 
+        
+    <div class="wrapper"></div>
+    
+    
+    <div id="login_popup">
+    
+        <div id="login_popup_message">
+        
+            <h1>Log In</h1>
+            
+            <input type="text" id="login_text" placeholder="Username">
+            
+            <input type="password" id="login_password" placeholder="Password">
+            
+            <button id="login_button">Log in</button>
+            
+            <button id="login_button_close">Close</button>
+            
+        </div>
+        
+    </div>
+         
+    <div id="singup_popup">
+    
+        <div id="singup_popup_message">
+        
+            <h1>Sing Up</h1>
+            
+            <input type="text" id="singup_email_text" placeholder="Enter email">
+            
+            <input type="text" id="singup_username" placeholder="Enter username">
+            
+            <input type="password" id="singup_password" placeholder="Enter password">
+            
+            <input type="password" id="singup_password_re" placeholder="Renter password">
+            
+            <button id="singup_button">Sing Up</button>
+            
+            <button id="singup_button_close">Close</button>
+            
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    <footer>
+        
+    
+    
+        <div id="div_footer">
+        
+        
+          <div id="div_footer_content">
+            
+             <div id="div_footer_content_about">
+              
+                 <h2>Quote</h2>
+                 <p>
+                 
+                 “The whole of life is just like watching a 
+                 film. Only it's as though you always get in 
+                 ten minutes after the big picture has started, 
+                 and no-one will tell you the plot, so you have
+                  to work it out all yourself from the clues.”
+
+                  
+                 </p>
+                 
+              
+              </div>
+             <div id="div_footer_content_links">
+              
+                 <h2>Quick Links</h2>
+                 
+                 <ul>
+                        
+                     <li><a href="https://www.imdb.com/" target="_blank">IMDB</a></li>
+                     <li><a href="#">Gallery</a></li>
+                     <li><a href="#">Actors</a></li>
+                     <li><a href="#">Tv Shows</a></li>
+                     <li><a href="#">Write for us</a></li>
+                     <li><a href="#">Additional Info</a></li>
+                 
+                 
+                 
+                 
+                 </ul>
+                 
+              
+              
+              </div>
+             <div id="div_footer_content_contacts">
+              
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your email...">
+
+                <div id="flex_text">
+            <textarea tabindex="3" rows="4" cols="38"  name="message" placeholder="Enter your message here..."  ></textarea>
+              <button>Send</button>
+            </div>
+
+              </div>
+              
+              
+            </div>
+        
+            
+            <div id="div_footer_bottom">
+            
+              <p>&copy; 2020 Superb-Desingers</p>
+            
+            </div>
+    
+        
+        </div>
+        
+    
+    </footer>
+    
+    
+   
+    
+    
+    
+    
+    
+    
+</body>
+</html>

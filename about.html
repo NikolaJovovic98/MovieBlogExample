@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Movie Blog</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="run.js" defer ></script>
+    
+</head>
+
+<body>
+
+  <header>
+      
+      <div id="upper_header">
+        
+          <h1 id="main_name"><a href="index1.html">Superb Movie Bloggers</a></h1>
+         
+          <p>Blog for authentic cinema lovers, everything about movies in one place !</p>
+         
+          <h3 id="login"> <a  href="#">Log In</a></h3>
+           <h3 id="singup"><a href="#">Sing Up</a></h3>
+          
+          
+          
+          <!--
+          <input type="text" placeholder="Search for movies.." name="search">
+          <button type="submit" id="button_search"><i class="fa fa-search"></i></button>
+          -->
+          
+        </div>
+       
+      
+    <nav>
+      
+   
+        
+        <ul class="nav_links">
+        
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a  href="index.html">Movies</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+             <li><a href="#div_footer_content_contacts">Contact Us</a></li>
+         
+            
+            
+           <li> <input id="search_box" type="text" placeholder="Search for movies.." name="search"></li>
+            
+         <li> <button type="submit" id="button_search"><i class="fa fa-search"></i></button></li>
+            
+            <!--
+           <li id="login"><a href="#">Log In</a></li>
+            <li id="singup"><a href="#">Sing Up</a></li>
+            -->
+        
+        </ul>
+      
+      
+      
+      
+      </nav>
+    
+
+    
+    </header>  
+    
+ <hr>
+ 
+ <div class="photo_about">
+
+    <img src="images/about.jpg" alt="">
+
+    <div>
+ <p>This blog was created to help people or to be more specific movie fanatics to pick their movies easier and to read reviews about most famous movies in cinema history.So feel welcome to search our site or if you have any questions send us a feedback or mail.Enjoy !</p>
+<hr>
+ <p>The Movie Blog is (are you ready for this?) a blog about movies. In 2020 Superb Designers began blogging (keeping a web based journal where he would share his experiences, thoughts, opinions and interesting links with people). He realized that more and more he was posting thoughts about film… so in 2003 he started up The Movie Blog. It’s just that simple.
+
+    In 2020, Superb Designers moved on to pursue other interests but returned briefly in 2012 to provide reviews and commentary.  The current staff is proud to carry on the tradition he started and branch out with their own and is led by Senior Editor Anthony Whyte.
+    
+    This is not a news site per se (although you’ll get a lot of news here), but rather a place to give thoughts and opinions on movies and movie news. A pundit site if you will for the Movie Industry.</p>
+
+    <hr>
+ </div>
+
+ </div>
+
+
+
+
+
+
+
+
+    <div class="wrapper"></div>
+    
+    
+    <div id="login_popup">
+    
+        <div id="login_popup_message">
+        
+            <h1>Log In</h1>
+            
+            <input type="text" id="login_text" placeholder="Username">
+            
+            <input type="password" id="login_password" placeholder="Password">
+            
+            <button id="login_button">Log in</button>
+            
+            <button id="login_button_close">Close</button>
+            
+        </div>
+        
+    </div>
+         
+    <div id="singup_popup">
+    
+        <div id="singup_popup_message">
+        
+            <h1>Sing Up</h1>
+            
+            <input type="text" id="singup_email_text" placeholder="Enter email">
+            
+            <input type="text" id="singup_username" placeholder="Enter username">
+            
+            <input type="password" id="singup_password" placeholder="Enter password">
+            
+            <input type="password" id="singup_password_re" placeholder="Renter password">
+            
+            <button id="singup_button">Sing Up</button>
+            
+            <button id="singup_button_close">Close</button>
+            
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    <footer>
+        
+    
+    
+        <div id="div_footer">
+        
+        
+          <div id="div_footer_content">
+            
+             <div id="div_footer_content_about">
+              
+                 <h2>Quote</h2>
+                 <p>
+                 
+                 “The whole of life is just like watching a 
+                 film. Only it's as though you always get in 
+                 ten minutes after the big picture has started, 
+                 and no-one will tell you the plot, so you have
+                  to work it out all yourself from the clues.”
+
+                  
+                 </p>
+                 
+              
+              </div>
+             <div id="div_footer_content_links">
+              
+                 <h2>Quick Links</h2>
+                 
+                 <ul>
+                        
+                     <li><a href="https://www.imdb.com/" target="_blank">IMDB</a></li>
+                     <li><a href="#">Gallery</a></li>
+                     <li><a href="#">Actors</a></li>
+                     <li><a href="#">Tv Shows</a></li>
+                     <li><a href="#">Write for us</a></li>
+                     <li><a href="#">Additional Info</a></li>
+                 
+                 
+                 
+                 
+                 </ul>
+                 
+              
+              
+              </div>
+             <div id="div_footer_content_contacts">
+              
+                <h2 >Contact Us</h2>
+                <input type="text" placeholder="Your email...">
+
+                <div id="flex_text">
+            <textarea tabindex="3" rows="4" cols="38"  name="message" placeholder="Enter your message here..."  ></textarea>
+              <button>Send</button>
+            </div>
+
+              </div>
+              
+              
+            </div>
+        
+            
+            <div id="div_footer_bottom">
+            
+              <p>&copy; 2020 Superb-Desingers</p>
+            
+            </div>
+    
+        
+        </div>
+        
+    
+    </footer>
+    
+    
+   
+    
+    
+    
+    
+    
+    
+</body>
+</html>
